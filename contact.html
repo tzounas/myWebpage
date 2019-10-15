@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<style>
+		body {font-family: Arial, Helvetica, sans-serif;}
+		* {box-sizing: border-box;}
+
+		input[type=text], textarea {
+  	width: 100%;
+  	padding: 12px;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+  	margin-top: 6px;
+  	margin-bottom: 16px;
+  	resize: vertical;
+	}
+
+	input[type=submit] {
+  	background-color: #4CAF50;
+  	color: white;
+  	padding: 12px 20px;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+	}
+
+	input[type=submit]:hover {
+  	background-color: #45a049;
+	}
+
+	.container {
+  	border-radius: 5px;
+  	background-color: #f2f2f2;
+  	padding: 20px;
+	}
+	h1{
+		padding-top: 50px;
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	</style>
+</head>
+<body>
+	<div id="navbar">
+				<img src="img\logo.png" alt="logo" id="logoIm">
+						<a href="contact.html" id="linkRef">Contact</a></li>
+						<a href="projects.html" id="linkRef">Projects</a></li>
+						<a href="about.html" id="linkRef">About</a></li>
+						<a href="index.html" id="linkRef">Home</a></li>
+
+
+	</div>
+	<h1>Contact Form</h1>
+	<div class="container">
+  	<form action="/action_page.php">
+    	<label for="fname">First Name</label>
+    	<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+			<label for="lname">Last Name</label>
+    	<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    	<label for="email">E-mail</label>
+    	<input type="text" id="email" name="email" placeholder="Your e-mail..">
+
+    	<label for="subject">Subject</label>
+    	<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    	<input type="submit" value="Submit">
+  </form>
+</div>
+<footer id="footer2">
+	<div id="wrapper">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="contact.html">Contact</a></li>
+		</nav>
+	</div>
+			<ul class="social-icons">
+				<li><a href="http://www.facebook.com"><img src='img\facebook.png' /></a></li>
+				<li><a href="http://www.twitter.com"><img src='img\twitter.png' /></a></li>
+				<li><a href="http://www.reddit.com/"><img src='img\reddit.png' /></a></li>
+				<li><a href="http://www.github.com/"><img src='img\github.png' /></a></li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
